@@ -1,13 +1,329 @@
+html,
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-weight: bold;
+}
+.headerHome {
+  background: url(https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
+    center center;
+  background-size: cover;
+  height: 900px;
+}
+.headerAbout {
+  background: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
+    center center;
+  background-size: cover;
+  height: 520px;
+}
+.jumbotronWork {
+  background: url(https://images.unsplash.com/photo-1526925539332-aa3b66e35444?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80)
+    center center;
+  background-size: cover;
+  height: 400px;
+}
+.containerWork {
+  background: url(https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80)
+    center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid black 5px;
+  padding: 30px;
+}
+.containerSkills {
+  background: url(https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80)
+    center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  height: 400px;
+}
+.containerContact {
+  background: url(https://images.unsplash.com/photo-1557853197-aefb550b6fdc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80)
+    center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  height: 400px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+}
+.headerStyle {
+  font-size: 90px;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+}
+.inPink {
+  width: 460px;
+  border-radius: 80px;
+  margin: 45px;
+  position: relative;
+  box-shadow: 10px 9px 2px 2px rgba(15, 15, 15, 0.73);
+}
+.masthead {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+.web {
+  margin-top: 40px;
+  font-size: 90px;
+  color: rgb(247, 247, 110);
+  -webkit-text-stroke: 2px black;
+}
+.cardsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.cardsContainer2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.whiteColor {
+  color: white;
+}
+.primaryColor {
+  color: #dffcf4;
+}
+.secondaryColor {
+  color: rgb(115, 73, 184);
+}
+.primaryBgColor {
+  background: #ebfaf6;
+}
+.textColor {
+  color: #0695b9;
+}
+.textCenter {
+  text-align: center;
+}
+.font-10 {
+  font-size: 10px;
+}
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-60 {
+  font-size: 60px;
+}
+.bold-300 {
+  font-weight: 300;
+}
+.bold-400 {
+  font-weight: 400;
+}
+.bold-500 {
+  font-weight: 500;
+}
+.bold-700 {
+  font-weight: 700;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.ls-1 {
+  letter-spacing: 1px;
+}
+.mtb-10 {
+  margin: 0 10px;
+}
+.mtb-30 {
+  margin: 0 30px;
+}
+.mtb-130 {
+  margin: 0 130px;
+}
+.mlr-10 {
+  margin: 10px 0;
+}
+.ptb {
+  padding: 10px 0;
+}
+.plr-10 {
+  padding: 0 10px;
+}
+.flexRow {
+  display: flex;
+}
+.justify-sb {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.alignCenter {
+  align-content: center;
+}
+.container {
+  margin: 0 auto;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: #6ef099ef;
+}
+#github,
+#weather {
+  display: flex;
+  justify-content: center;
+}
+.btn:hover,
+.nav ul li:hover {
+  background: #dcfa55;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.carousel {
+  width: 90%;
+  float: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.directory,
+.fitness,
+.blog {
+  width: 100%;
+}
+@media screen and (max-width: 350px) {
+  .carousel {
+    width: 200%;
+  }
+}
+@media screen and (max-width: 580px) {
+  html,
+  body,
+  .jumbotronWork,
+  .containerWork,
+  .containerSkills .aboutMePic,
+  .cardsContainer,
+  .cardsContainer2 {
+    flex-direction: column;
+  }
+  .headerStyle {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutMePic,
+  .containerSkills {
+    display: flex;
+    flex-direction: column;
+    float: left;
+  }
+  .list {
+    font-size: x-large;
+    flex-direction: column;
+  }
+  .contactList {
+    font-size: x-large;
+    width: fit-content;
+  }
+  #thanks {
+    float: left;
+    flex-direction: column;
+  }
+  .containerMe {
+    background-color: rgb(107, 81, 204);
+    color: rgb(255, 255, 255);
+  }
+  .carousel {
+    width: 280px;
+  }
+  .contactPic {
+    width: 220px;
+  }
+}
+@media screen and (max-width: 780px) {
+  html,
+  body,
+  .containerWork,
+  .aboutMePic,
+  .cardsContainer,
+  .cardsContainer2 {
+    flex-direction: column;
+  }
+  button {
+    width: fit-content;
+  }
+  .headerStyle {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutMePic {
+    display: flex;
+    flex-direction: column;
+    float: left;
+  }
+  .list,
+  .skills-List {
+    font-size: x-large;
+    flex-direction: column;
+  }
+  .contactList {
+    font-size: x-large;
+    margin-top: 200px;
+    width: fit-content;
+    color: #ccdd34;
+  }
+  #thanks {
+    flex-direction: column;
+  }
+  .containerMe {
+    background-color: rgb(107, 79, 184);
+    color: rgb(255, 255, 255);
+  }
+  .carousel {
+    width: 200%;
+  }
+  .inPink {
+    width: 380px;
+  }
+  .contactPic {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 992px) {
+  html,
+  body,
+  .jumbotronWork,
+  .containerWork,
+  .containerSkills .aboutMePic,
+  .cardsContainer,
+  .cardsContainer2 {
+    flex-direction: column;
+  }
+  .carousel {
+    width: 100%;
+    /* flex-direction: column; */
+  }
 }
