@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 function Contact() {
   return (
-  <div>
+    <div>
       <h1>contact</h1>
-  </div>
-  )
+      <p>kylesimone@outlook.com</p>
+      <p>702-815-5263</p>
+    </div>
+  );
 }
 
 export default Contact;
